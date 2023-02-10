@@ -1,0 +1,156 @@
+@media (max-width: 1023px) {
+    .menu {
+        margin-right: 0;
+    }
+
+    .main-title {
+        font-size: 39px;
+    }
+
+    .tuna {
+        margin-bottom: 25px;
+    }
+
+    .cook {
+        padding-top: 50px;
+    }
+
+    .sushi-items {
+        row-gap: 30px;
+    }
+
+    .cook-image {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .cook-action {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cook-block {
+        max-width: 600px;
+        align-items: center;
+        text-align: center;
+        grid-row: 2/3;
+        margin: 50px 0;
+    }
+
+    #tuna_ico {
+        margin-right: 0;
+    }
+
+    .cook-info {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        margin: 5px 0;
+    }
+
+    .main {
+        padding: 40px 0 100px 0;
+    }
+
+    .sushi-items {
+        column-gap: 0;
+    }
+
+    .main .container {
+        justify-items: center;
+    }
+
+    .main-info {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        max-width: 500px;
+    }
+
+    .main-image {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .main-title {
+        text-align: center;
+    }
+
+    .tuna {
+        margin-bottom: 0;
+    }
+
+    .main-actions {
+        text-align: center;
+    }
+
+    .main-image img {
+        max-width: 550px;
+    }
+
+    .footer-info {
+        margin-right: 0;
+    }
+
+    .cook-read {
+        text-align: center;
+    }
+}
+
+@media (max-width: 537px) {
+    .tuna {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .main-items {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 424px) {
+    .tuna {
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+
+    .sushi {
+        padding-bottom: 25px;
+    }
+
+    .cook-image img {
+        max-width: 300px;
+    }
+
+    .cook-block {
+        width: 300px;
+    }
+}
+
+@media (max-width: 374px) {
+    .sushi-title {
+        font-size: 25px;
+    }
+
+    .sushi-item {
+        padding: 10px 10px 15px 10px;
+        width: 235px;
+        height: 320px;
+    }
+
+    .sushi-item-action .button {
+        width: 200px;
+    }
+
+    .cook {
+        padding-top: 20px;
+    }
+
+
+}
